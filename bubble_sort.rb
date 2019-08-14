@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort(array)
   (0...array.length - 1).each do |i|
     sorted = true
@@ -9,7 +11,7 @@ def bubble_sort(array)
     end
     break if sorted
   end
-  return array
+  array
 end
 
-print bubble_sort([4,3,78,2,0,2])
+print bubble_sort([4, 3, 78, 2, 0, 2])
